@@ -1,0 +1,38 @@
+<html>
+<head>
+
+	<title> AI Object Finder </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="bg.jpg">
+ <center>
+   <h1 class="btn btn-primary heading">AI Object Finder
+    <br>
+    <span style="font-size: 13;">The name enter should macth with the names present in CoCo model.</span>
+   </h1>
+   <h3 id="bob" class="btn btn-danger">Object Name:</h3>  
+   <br>
+   <input type="text" id="input">
+   <br><br>
+   <button class="btn btn-success" onclick="start()">Start</button>
+   <br>
+   <h3 class="btn btn-danger" id="status"></h3>
+   <h3 class="btn btn-info" id="result"></h3>
+ </center>
+
+ <div class="btn btn-primary footer">Developed By:Kantan</div>
+
+<script src="main.js"></script>
+
+</body>
+</html>
